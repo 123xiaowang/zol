@@ -1,0 +1,62 @@
+body,h1,h2,h3,h4,h5,h6,p,ul,ol,dl,dd,hr,ul,ol,td,input,option,textarea{
+	margin:0;
+	padding:0;
+}
+body{
+    font-family: "微软雅黑";
+    background: #f4f4f4;
+	font-size: 12px;
+	height: 100%;
+}
+li{
+	list-style: none;
+}
+a{
+	text-decoration: none;
+}
+img{
+	border: none;
+}
+
+/* header1 */
+.row{
+    margin-right: -69px;
+}
+.ulf{
+    width:500px;
+    height: 30px;
+    line-height: 30px;
+    float: left;
+}
+.uls{
+    height: 30px;
+    line-height: 30px;
+    float: right;
+}
+.uls :nth-child(2){
+    padding-right: 0px;;
+}
+.ulf a{
+    display: inline-block;
+}
+.ulf a:nth-of-type(1){
+    padding-left: 0px;
+}
+.container ul a {
+    padding: 0 10px;
+    color: gray;
+}
+.hd1 ul a:hover {
+    color: red;
+    text-decoration: none;
+}
+
+.container .uls {
+    float:right;
+} 
+.container .uls a:hover{
+    color: red;
+    text-decoration: none;
+}
+
+

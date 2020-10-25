@@ -1,0 +1,188 @@
+@import "publish";
+body{
+    background: #fff
+}
+.hd2{
+    background: white;
+    padding-bottom: 20px;
+}
+.img{
+    width: 329px;
+    height: 58px;
+    float: left;
+    margin: 32px 15px 0 0;
+}
+.hd2 p{
+    float: left;
+    color: #3e3a39;
+    font-size: 16px;
+    margin-top: 33px;
+    height: 30px;
+    line-height: 30px;
+    border-left: 1px solid #ededed;
+    padding-left: 15px;
+    margin-right: 20px;
+}
+// masseg
+.masseg{
+    margin-bottom: 40px;
+    margin-top: 40px;
+}
+.masseg-left{
+    width: 490px;
+    height: 35px;
+    background: red;
+    float: left;
+    position: relative;
+    margin-left: 77px;
+}
+.masseg-left > p {
+    font-size: 14px;
+    // text-align: center;
+    line-height: 35px;
+    color: white;
+    padding-left: 30px;
+}
+.sanjiao{
+    display: block;
+    width: 0px;
+    height: 0px;
+    border:17px solid transparent;
+    border-left-color: red;;
+    position: absolute;
+    z-index: 1;
+    top: 0px;
+    right: -34px;
+}
+.masseg-right{
+    width: 490px;
+    height: 35px;
+    background:gray;
+    float: right;
+    margin-right: 77px;
+    position: relative;
+
+}
+.masseg-right > p{
+    color: white;
+    line-height: 35px;
+    font-size: 14px;
+    padding-left: 30px;
+}
+.sanjiao2{
+    display: block;
+    width: 0px;
+    height: 0px;
+    border:17px solid transparent;
+    border-left-color: white;
+    position: absolute;
+    top: 0px;
+    left:0px;
+}
+// content
+.content{
+    text-align: center;
+    font-size: 14px;
+    position: relative;
+}
+.content input{
+    padding-left: 10px;
+    cursor: pointer;
+    outline: none;
+    margin-left: 10px;
+    width: 550px;
+    height:38px;
+    margin-bottom: 30px;
+    border: 1px solid #ddd ;
+}
+.content p:nth-of-type(2) > input{
+    width: 350px;
+    height: 38px;
+}
+.content p:nth-of-type(2) > button{
+    width: 190px;
+    height: 38px;
+    background: red;
+    color: white;
+    border: none;
+    font-size: 14px;
+    border-radius: 2px;
+}
+.content p:nth-of-type(5) > input{
+    font-size: 14px;
+    border: none;
+    margin-top: 20px;
+    margin-left: 75px;
+}
+.content p:nth-of-type(4) > input{
+    background: #ddd;
+}
+.content p:nth-of-type(1){
+    position: relative;
+}
+.phone-wrong{
+    position: absolute;
+    top: 9px;
+    left: 917px;
+    display: none;
+}
+.content p:nth-of-type(2){
+    position: relative;
+
+}
+.massge-wrong{
+    
+    position: absolute;
+    top: 78px;
+    left: 920px;
+    display: none;
+}
+.password-wrong{
+    position: absolute;
+    top: 146px;
+    left: 919px;
+    display: none;
+}
+// footer
+.flooter{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    left: 0;
+    background:#302e2e;
+    margin-top: 30px
+    
+  
+
+}
+.flooter-left{
+    float: left;
+}
+.flooter-left p:nth-of-type(1){
+    font-size:14px ;
+    color:#999 ;
+    line-height: 18px;
+    margin-top: 40px;
+}
+.flooter span{
+    font-size: 18px;
+    color:#fc002d ;
+}
+.flooter p:nth-of-type(2){
+     color:#999;
+     line-height: 18px;
+     margin-top: 7px;
+}
+.flooter p:nth-of-type(3){
+    color:#999;
+    line-height: 18px;
+    margin-top: 7px;
+    padding-bottom: 20px;
+}
+.flooter .right{
+    width: 81px;
+    height: 81px;
+    float: right;
+    margin-left: 20px;
+    margin-top: 30px;
+}

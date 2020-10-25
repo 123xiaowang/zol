@@ -1,0 +1,235 @@
+@charset "UTF-8";
+body, h1, h2, h3, h4, h5, h6, p, ul, ol, dl, dd, hr, ul, ol, td, input, option, textarea {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "微软雅黑";
+  background: #f4f4f4;
+  font-size: 12px;
+  height: 100%;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  border: none;
+}
+
+/* header1 */
+.row {
+  margin-right: -69px;
+}
+
+.ulf {
+  width: 500px;
+  height: 30px;
+  line-height: 30px;
+  float: left;
+}
+
+.uls {
+  height: 30px;
+  line-height: 30px;
+  float: right;
+}
+
+.uls :nth-child(2) {
+  padding-right: 0px;
+}
+
+.ulf a {
+  display: inline-block;
+}
+
+.ulf a:nth-of-type(1) {
+  padding-left: 0px;
+}
+
+.container ul a {
+  padding: 0 10px;
+  color: gray;
+}
+
+.hd1 ul a:hover {
+  color: red;
+  text-decoration: none;
+}
+
+.container .uls {
+  float: right;
+}
+
+.container .uls a:hover {
+  color: red;
+  text-decoration: none;
+}
+
+body {
+  background: #fff;
+}
+
+.hd2 {
+  background: white;
+  padding-bottom: 20px;
+}
+
+.img {
+  width: 329px;
+  height: 58px;
+  float: left;
+  margin: 32px 15px 0 0;
+}
+
+.hd2 p {
+  float: left;
+  color: #3e3a39;
+  font-size: 16px;
+  margin-top: 33px;
+  height: 30px;
+  line-height: 30px;
+  border-left: 1px solid #ededed;
+  padding-left: 15px;
+  margin-right: 20px;
+}
+
+.banner {
+  background: linear-gradient(90deg, #fc2f00 50%, #c20004);
+}
+
+.banner-img {
+  background-image: url("../../dist/img/banner.png");
+  background-size: contain;
+  width: 1200px;
+  height: 600px;
+  margin: 0 auto;
+  position: relative;
+  zoom: 1;
+}
+
+.login-box {
+  width: 350px;
+  height: 354px;
+  background: white;
+  position: absolute;
+  top: 132px;
+  right: 0px;
+  border-radius: 4px;
+  padding: 0 30px;
+}
+
+#wrong {
+  width: 298px;
+  height: 35px;
+  line-height: 35px;
+  position: absolute;
+  top: 63px;
+  padding-left: 10px;
+  border: 1px solid #ffb4a8;
+  background-color: #fef2f2;
+  font: 12px/28px Microsoft YaHei,"\5FAE\8F6F\96C5\9ED1";
+  color: #666;
+  display: none;
+}
+
+.login-hd h3 {
+  font-size: 16px;
+  color: #333;
+  line-height: 26px;
+  font-family: MicrosoftYaHei-Bold;
+  font-weight: 800;
+  display: inline-block;
+  padding-top: 40px;
+}
+
+.login-hd > div {
+  float: right;
+  padding-left: 20px;
+  padding-top: 40px;
+}
+
+.plo {
+  width: 298px;
+  height: 44px;
+  border: 1px solid gray;
+  margin-top: 40px;
+}
+
+.plo > span {
+  width: 42px;
+  height: 42px;
+  display: block;
+  background: gray;
+  border: 1px solid #d0d0d0;
+  padding: 9px 10px 0 10px;
+  float: left;
+}
+
+.plo > input {
+  width: 206px;
+  height: 26px;
+  border: none;
+  margin-top: 10px;
+  outline: none;
+}
+
+.plo-bottom button {
+  margin-top: 20px;
+  display: block;
+  width: 298px;
+  height: 44px;
+  background: #fc002d;
+  font-size: 14px;
+  color: #fff;
+  text-align: center;
+  border-radius: 3px;
+  line-height: 44px;
+  border: none;
+  outline: none;
+}
+
+.login-box > p {
+  float: right;
+  margin-top: 20px;
+}
+
+.login-box > P > a {
+  color: #666;
+  font-size: 12px;
+}
+
+.footer-top {
+  text-align: center;
+  margin-top: 20px;
+  font-size: 14px;
+  color: #999;
+  height: 53px;
+  border-bottom: 1px solid #f5f5f5;
+}
+
+.icon-rexian {
+  line-height: 53px;
+}
+
+.footer-top span:nth-of-type(2) {
+  font-size: 18px;
+  color: #fc002d;
+}
+
+.footer-bottom p {
+  line-height: 14px;
+  text-align: center;
+  color: #999;
+  margin-top: 20px;
+}
+
+.footer-bottom p:nth-of-type(2) {
+  margin-bottom: 10px;
+}
